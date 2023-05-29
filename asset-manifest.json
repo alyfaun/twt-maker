@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/twt-maker/static/css/main.d0ea875f.css",
+    "main.js": "/twt-maker/static/js/main.dbf7da8a.js",
+    "static/js/787.c01828aa.chunk.js": "/twt-maker/static/js/787.c01828aa.chunk.js",
+    "static/media/pfp.jpg": "/twt-maker/static/media/pfp.2239f0abca566b1d65d6.jpg",
+    "static/media/verified.png": "/twt-maker/static/media/verified.e2a2d819ed0df9d408ad.png",
+    "index.html": "/twt-maker/index.html",
+    "main.d0ea875f.css.map": "/twt-maker/static/css/main.d0ea875f.css.map",
+    "main.dbf7da8a.js.map": "/twt-maker/static/js/main.dbf7da8a.js.map",
+    "787.c01828aa.chunk.js.map": "/twt-maker/static/js/787.c01828aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0ea875f.css",
+    "static/js/main.dbf7da8a.js"
+  ]
+}
