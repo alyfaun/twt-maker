@@ -1,0 +1,160 @@
+body {
+  background: #1da1f2;
+}
+
+h1 {
+  color: white;
+  margin-top: 30px;
+  font-size: 3em;
+}
+
+h2 {
+  color: #141d26;
+  font-size: 1.2em;
+  margin: 10px 0px;
+}
+
+.app {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tweet {
+  width: 500px;
+  padding: 15px;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+.displayName, .tweetBody {
+  overflow-wrap: break-word;
+}
+
+.tweetBody {
+  font-weight: 500;
+}
+
+.displayName {
+  font-weight: bold;
+  display: inline;
+}
+
+.userName {
+  color: #657786;
+  font-weight: 500;
+}
+
+.engage {
+  padding-top: 15px;
+  font-size: small;
+  color: #657786;
+}
+
+.engage .social1, .engage .social2, .engage .social3 {
+  height: 15px;
+  margin-right: 5px;
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+}
+
+.engage .social2, .engage .social3 {
+  margin-left: 40px;
+}
+
+.lightMode {
+  background: white;
+  color: #141d26;
+  border: 1px solid #aab8c2;
+}
+
+.darkMode {
+  background: #243447;
+  color: white;
+  border: 1px solid #141d26;
+}
+
+.pfp {
+  width: 45px;
+  float: left;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.veri {
+  display: inline;
+  width: 15px;
+  margin-left: 8px;
+}
+
+button {
+  display: block;
+  padding: 4px 6px;
+  float: right;
+  -webkit-transform: translate(-25px, 2px);
+          transform: translate(-25px, 2px);
+  border-radius: 5px;
+  border: 1px solid #aab8c2;
+}
+
+button:hover {
+  background-color: #aab8c2;
+}
+
+button:active {
+  background-color: #243447;
+  color: white;
+}
+
+form {
+  display: inline;
+  margin: auto;
+}
+
+form input, form textarea {
+  margin: 5px;
+  padding: 2px 5px;
+  border: 1px solid #aab8c2;
+  border-radius: 5px;
+}
+
+form input[type=number] {
+  width: 110px;
+}
+
+form ::-webkit-input-placeholder {
+  color: #aab8c2;
+}
+
+form :-ms-input-placeholder {
+  color: #aab8c2;
+}
+
+form ::-ms-input-placeholder {
+  color: #aab8c2;
+}
+
+form ::placeholder {
+  color: #aab8c2;
+}
+
+form textarea {
+  margin-bottom: -10px;
+}
+
+form .caption {
+  font-size: small;
+  color: white;
+  float: right;
+  -webkit-transform: translate(-25px, 7px);
+          transform: translate(-25px, 7px);
+}
+/*# sourceMappingURL=App.css.map */

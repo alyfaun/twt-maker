@@ -1,0 +1,141 @@
+$twitterBlue: #1da1f2;
+$textColor: #141d26;
+$lightGray: #aab8c2;
+$darkGray: #657786;
+$darkMode: #243447;
+$borderStyle: 1px solid $lightGray;
+
+body {
+    background: $twitterBlue;
+}
+
+h1{
+    color: white;
+    margin-top: 30px;
+    font-size: 3em;
+}
+
+h2 {
+    color: $textColor;
+    font-size: 1.2em;
+    margin: 10px 0px;
+}
+
+.app {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.tweet {
+    width: 500px;
+    padding: 15px;
+    margin:30px auto;
+    border-radius: 10px;
+}
+
+.displayName, .tweetBody{
+    overflow-wrap: break-word;
+}
+
+.tweetBody{
+    font-weight: 500;
+}
+
+.displayName {
+    font-weight: bold;
+    display: inline;
+}
+
+.userName{
+    color:$darkGray;
+    font-weight: 500;
+}
+
+.engage{
+    padding-top: 15px;
+    font-size: small;
+    color:$darkGray;
+    .social1, .social2, .social3{
+        height: 15px;
+        margin-right: 5px;
+        transform: translateY(2px);
+    }
+    .social2, .social3{
+        margin-left: 40px;
+    }
+}
+
+.lightMode{
+    background: white;
+    color: $textColor;
+    border: $borderStyle;
+}
+
+.darkMode{
+    background: $darkMode;
+    color: white;
+    border: 1px solid $textColor;
+}
+
+.pfp{
+    width: 45px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.veri{
+    display: inline;
+    width: 15px;
+    margin-left: 8px;
+}
+
+button{
+    display: block;
+    padding: 4px 6px;
+    float:right;
+    transform: translate(-25px, 2px);
+    border-radius: 5px;
+    border: $borderStyle;
+}
+button:hover {
+    background-color: $lightGray;
+}
+button:active {
+    background-color: $darkMode;
+    color:white;
+}
+
+form {
+    display: inline;
+    margin: auto;
+
+    input, textarea{
+        margin: 5px;
+        padding: 2px 5px;
+        border: $borderStyle;
+        border-radius: 5px;
+
+    }
+
+    input[type=number]{
+        width: 110px;
+    }
+
+    ::placeholder{
+        color:$lightGray;
+    }
+
+    textarea{
+        margin-bottom: -10px;
+    }
+
+    .caption{
+        font-size: small;
+        color:white;
+        float:right;
+        transform: translate(-25px, 7px)
+    }
+}
